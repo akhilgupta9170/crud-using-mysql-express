@@ -4,7 +4,7 @@ import { readAllUsers, createUser, readUserById, updateUser, deleteUser } from "
 const route = express.Router();
 
 
-route.get('/read',readAllUsers);
+route.get('/read', readAllUsers);
 route.post('/create', createUser);
 route.get('/read/:id', readUserById);
 route.put('/update/:id', updateUser);

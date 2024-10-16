@@ -17,3 +17,10 @@ export const updateUserQuery = () => {
 export const deleteUserQuery = () => {
     return 'DELETE FROM student WHERE id = ?';
 };
+
+export const checkEmailQuery = () => {
+    return 'SELECT * FROM student WHERE email = ?';
+}
+export const checkUserQuery = () => {
+    return 'SELECT * FROM student WHERE id != ?';
+}
