@@ -10,4 +10,4 @@ route.get('/read/:id', readUserById);
 route.put('/update/:id', updateUser);
 route.delete('/delete/:id', deleteUser);
 
-export default route;
+export default route;   
